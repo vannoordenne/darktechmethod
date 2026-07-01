@@ -1,5 +1,6 @@
 const copy = {
   nl: {
+    prompt: 'darktechmethode ~',
     title: 'Dark Tech Methode',
     description: 'Een overdraagbare methode voor ethische en kritische reflectie op technologie in het ICT-onderwijs — ontwikkeld aan de Hogeschool van Amsterdam.',
     p1: 'De Dark Tech Methode is voortgekomen uit een onderzoeksproject van Marise van Noordenne en Jolijn Friederichs, drie keer gefinancierd door het Centre of Expertise Creative Innovation (CoE-CI). Het doel was een nieuwe manier te ontwikkelen om ethische en kritische reflectie op een speelse en laagdrempelige manier in te bedden in het ICT-onderwijs.',
@@ -8,6 +9,7 @@ const copy = {
     p4: 'De methode is een combinatie van provocative prototyping, speculative design en critical making. Alle bevindingen, formats, lesvormen en materialen uit dit onderwijs worden gebundeld in een overdraagbare Dark Tech Toolkit, zodat ook andere onderwijsinstellingen de methode kunnen implementeren.',
   },
   en: {
+    prompt: 'darktechmethod ~',
     title: 'Dark Tech Method',
     description: 'A transferable approach for ethical and critical reflection on technology in ICT education — developed at Amsterdam University of Applied Sciences.',
     p1: 'The Dark Tech Method emerged from a research project by Marise van Noordenne and Jolijn Friederichs, funded three times by the Centre of Expertise Creative Innovation (CoE-CI). The aim was to develop a new way to embed ethical and critical reflection in ICT education in a playful, low-threshold manner.',
