@@ -36,7 +36,6 @@ const copy = {
     paperNote: 'publicatie',
     orbitLink: 'or-bit.xyz',
     orbitNote: 'workshops & research',
-    footerRest: ' · Centre of Expertise Creative Innovation · Hogeschool van Amsterdam',
   },
   en: {
     prompt: 'darktechmethod ~',
@@ -75,7 +74,6 @@ const copy = {
     paperNote: 'publication',
     orbitLink: 'or-bit.xyz',
     orbitNote: 'workshops & research',
-    footerRest: ' · Centre of Expertise Creative Innovation · Amsterdam University of Applied Sciences',
   },
 };
 
