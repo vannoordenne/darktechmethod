@@ -25,7 +25,6 @@ const copy = {
     alsoLabel: 'ook/',
     digitalHint: '-- digitaal gratis spelen',
     homeHint: '-- darktechmethod.com',
-    footerRest: ' · or-bit · darktechmethod.com',
   },
   en: {
     prompt: 'deck ~',
@@ -48,7 +47,6 @@ const copy = {
     alsoLabel: 'also/',
     digitalHint: '-- play free digitally',
     homeHint: '-- darktechmethod.com',
-    footerRest: ' · or-bit · darktechmethod.com',
   },
 };
 
