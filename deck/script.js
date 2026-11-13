@@ -5,11 +5,13 @@ const mailto = {
 
 const copy = {
   nl: {
-    prompt: 'deck ~',
+    pathRoot: 'darktechmethode',
     title: 'The Speculation Game',
     description: 'Bestel The Speculation Game: fysieke kaartenset voor speculative design en ethische reflectie op technologie.',
     lede: 'Fysieke kaartenset voor speculative design en ethische reflectie op technologie.',
     intro: 'Voor workshops, onderwijs en teams. Door Marise van Noordenne & Jolijn Friederichs.',
+    footerBy: 'Gemaakt door',
+    footerCopy: 'Centre of Expertise Creative Innovation · Hogeschool van Amsterdam',
     contentsLabel: 'inhoud/',
     contents1: 'CORE-kaarten in vijf categorieën: Technology, Target, Funding, Problem, Strategy -- plus Twist.',
     contents2: 'Er zit een uitlegkaart en een informatiekaart bij.',
@@ -27,11 +29,13 @@ const copy = {
     homeHint: '-- darktechmethod.com',
   },
   en: {
-    prompt: 'deck ~',
+    pathRoot: 'darktechmethod',
     title: 'The Speculation Game',
     description: 'Order The Speculation Game: physical card deck for speculative design and ethical reflection on technology.',
     lede: 'Physical card deck for speculative design and ethical reflection on technology.',
     intro: 'For workshops, education and teams. By Marise van Noordenne & Jolijn Friederichs.',
+    footerBy: 'Created by',
+    footerCopy: 'Centre of Expertise Creative Innovation · Amsterdam University of Applied Sciences',
     contentsLabel: 'contents/',
     contents1: 'CORE cards in five categories: Technology, Target, Funding, Problem, Strategy -- plus Twist.',
     contents2: 'Includes an instruction card and an information card.',

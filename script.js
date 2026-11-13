@@ -1,7 +1,9 @@
 const copy = {
   nl: {
-    prompt: 'darktechmethode ~',
+    pathRoot: 'darktechmethode',
     title: 'Dark Tech Methode',
+    footerBy: 'Gemaakt door',
+    footerCopy: 'Centre of Expertise Creative Innovation · Hogeschool van Amsterdam',
     description: 'Een overdraagbare methode voor ethische en kritische reflectie op technologie in het ICT-onderwijs, ontwikkeld aan de Hogeschool van Amsterdam.',
     lede: 'Wat gebeurt er als we stoppen met oplossingen ontwerpen, en juist de systemen maken die we vrezen?',
     intro: 'Een methode voor ethische reflectie in tech-onderwijs, via provocatieve prototypes. Door Marise van Noordenne & Jolijn Friederichs.',
@@ -38,8 +40,10 @@ const copy = {
     orbitNote: 'workshops & research',
   },
   en: {
-    prompt: 'darktechmethod ~',
+    pathRoot: 'darktechmethod',
     title: 'Dark Tech Method',
+    footerBy: 'Created by',
+    footerCopy: 'Centre of Expertise Creative Innovation · Amsterdam University of Applied Sciences',
     description: 'A transferable approach for ethical and critical reflection on technology in ICT education, developed at Amsterdam University of Applied Sciences.',
     lede: 'What happens when we stop designing solutions, and deliberately design the systems we fear?',
     intro: 'A method for ethical reflection in tech education, through provocative prototypes. By Marise van Noordenne & Jolijn Friederichs.',

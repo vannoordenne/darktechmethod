@@ -16,8 +16,8 @@
 
 body {
   font-family: var(--font);
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 13px;
+  line-height: 1.65;
   color: var(--fg);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
@@ -45,6 +45,25 @@ body {
 .prompt::before {
   content: '$ ';
   color: var(--dim);
+}
+
+.path-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.path-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.path-sep,
+.path-tilde {
+  color: var(--dim);
+}
+
+.path-here {
+  color: var(--accent);
 }
 
 .lang-switch {
@@ -76,10 +95,10 @@ body {
 }
 
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 500;
   letter-spacing: 0.02em;
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 
 .cursor {
@@ -293,6 +312,12 @@ h1 {
 .footer a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.footer-copy {
+  margin-top: 0.35rem;
+  font-size: 11px;
+  color: #444;
 }
 
 @media (prefers-reduced-motion: reduce) {
