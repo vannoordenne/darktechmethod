@@ -103,6 +103,40 @@ h1 {
   margin-bottom: 0;
 }
 
+.tools {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #222;
+}
+
+.tools-label {
+  margin-bottom: 0.75rem;
+  font-size: 12px;
+  color: var(--dim);
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
+}
+
+.tool-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.tool-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.tool-note {
+  margin-top: 0.45rem;
+  font-size: 12px;
+  color: var(--dim);
+}
+
 .footer {
   margin-top: 3rem;
   font-size: 12px;
