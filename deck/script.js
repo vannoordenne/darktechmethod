@@ -1,6 +1,6 @@
 const mailto = {
   nl: 'mailto:hello@or-bit.xyz?subject=Bestelling%20Speculation%20Game&body=Naam%3A%0AAdres%3A%0APostcode%20%2B%20plaats%3A%0AAantal%20decks%3A%201%0A',
-  en: 'mailto:hello@or-bit.xyz?subject=Order%20Speculation%20Game&body=Name%3A%0AAddress%20(NL)%3A%0APostal%20code%20%2B%20city%3A%0ANumber%20of%20decks%3A%201%0A',
+  en: 'mailto:hello@or-bit.xyz?subject=Order%20Speculation%20Game&body=Name%3A%0AAddress%3A%0APostal%20code%20%2B%20city%3A%0ANumber%20of%20decks%3A%201%0A',
 };
 
 const copy = {
@@ -16,10 +16,10 @@ const copy = {
     boxCredit: 'The Speculation Game CORE',
     orderLabel: 'bestellen/',
     priceLine: 'Prijs: €29,95',
-    shipLine: 'Verzending via PostNL: €6,50 (alleen Nederland)',
+    shipLine: 'Verzending via PostNL: €6,50',
     totalLine: 'Totaal: €36,50 per set',
-    shipOnly: 'Op dit moment shippen we alleen binnen Nederland.',
-    orderHow: 'Mail je naam, bezorgadres in NL en aantal decks. Wij laten weten of er voorraad is, wat de levertijd is, en sturen een betaallink.',
+    shipOnly: 'Op dit moment alleen verzending binnen Nederland.',
+    orderHow: 'Mail je naam, bezorgadres en aantal decks. Wij laten weten of er voorraad is, wat de levertijd is, en sturen een betaallink.',
     orderHint: '-- bestelling Speculation Game',
     delivery: 'Levering: ongeveer 5-10 werkdagen na betaling.',
     alsoLabel: 'ook/',
@@ -39,10 +39,10 @@ const copy = {
     boxCredit: 'The Speculation Game CORE',
     orderLabel: 'order/',
     priceLine: 'Price: €29.95',
-    shipLine: 'Shipping via PostNL: €6.50 (Netherlands only)',
+    shipLine: 'Shipping via PostNL: €6.50',
     totalLine: 'Total: €36.50 per set',
-    shipOnly: 'We currently ship within the Netherlands only.',
-    orderHow: 'Email your name, NL shipping address and number of decks. We will confirm stock, shipping time, and send a payment link.',
+    shipOnly: 'Currently shipping within the Netherlands only.',
+    orderHow: 'Email your name, shipping address and number of decks. We will confirm stock, shipping time, and send a payment link.',
     orderHint: '-- order Speculation Game',
     delivery: 'Delivery: about 5-10 working days after payment.',
     alsoLabel: 'also/',
