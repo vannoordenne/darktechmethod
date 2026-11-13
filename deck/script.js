@@ -1,3 +1,8 @@
+const mailto = {
+  nl: 'mailto:hello@or-bit.xyz?subject=Bestelling%20Speculation%20Game&body=Naam%3A%0AAdres%3A%0APostcode%20%2B%20plaats%3A%0ALand%3A%20Nederland%0AAantal%20decks%3A%201%0A',
+  en: 'mailto:hello@or-bit.xyz?subject=Order%20Speculation%20Game&body=Name%3A%0AAddress%3A%0APostal%20code%20%2B%20city%3A%0ACountry%3A%0ANumber%20of%20decks%3A%201%0A',
+};
+
 const copy = {
   nl: {
     prompt: 'deck ~',
@@ -12,11 +17,10 @@ const copy = {
     orderLabel: 'bestellen/',
     priceLine: 'Prijs: €29,95',
     shipLine: 'Verzending NL (pakket): €6,50',
-    totalLine: 'Totaal NL: €36,50',
-    orderCmd: './bestel',
-    orderHint: '-- €36,50 NL via Mollie',
+    totalLine: 'Totaal NL: €36,50 per set',
+    orderHow: 'Mail je naam, bezorgadres, aantal decks en land. Wij sturen daarna een Mollie-betaallink.',
+    orderHint: '-- bestelling Speculation Game',
     delivery: 'Levering NL: ongeveer 5-10 werkdagen na betaling.',
-    euHint: '-- EU / buiten NL, of vragen',
     alsoLabel: 'ook/',
     digitalHint: '-- digitaal gratis spelen',
     homeHint: '-- darktechmethod.com',
@@ -35,11 +39,10 @@ const copy = {
     orderLabel: 'order/',
     priceLine: 'Price: €29.95',
     shipLine: 'Shipping NL (parcel): €6.50',
-    totalLine: 'Total NL: €36.50',
-    orderCmd: './order',
-    orderHint: '-- €36.50 NL via Mollie',
+    totalLine: 'Total NL: €36.50 per set',
+    orderHow: 'Email your name, shipping address, number of decks and country. We will then send a Mollie payment link.',
+    orderHint: '-- order Speculation Game',
     delivery: 'Delivery NL: about 5-10 working days after payment.',
-    euHint: '-- EU / outside NL, or questions',
     alsoLabel: 'also/',
     digitalHint: '-- play free digitally',
     homeHint: '-- darktechmethod.com',
@@ -66,6 +69,9 @@ function setLang(lang) {
     const key = el.dataset.i18n;
     if (strings[key]) el.textContent = strings[key];
   });
+
+  const orderMail = document.getElementById('order-mail');
+  if (orderMail && mailto[lang]) orderMail.href = mailto[lang];
 
   document.querySelectorAll('.lang-btn').forEach((btn) => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
