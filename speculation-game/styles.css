@@ -5526,10 +5526,3 @@ html {
 }
 
 
-/* Back link to darktechmethod.com */
-.site-back {
-    opacity: 0.7;
-}
-.site-back:hover {
-    opacity: 1;
-}
